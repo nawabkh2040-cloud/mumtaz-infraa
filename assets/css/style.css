@@ -12797,9 +12797,9 @@ header.header-three.sticky .has-dropdown.mega-menu:hover .rts-mega-menu {
 .nav-area ul {
   display: flex;
   align-items: center;
-  gap: 50px;
-  padding: 0;
-  margin: 0;
+  gap: 36px;
+  padding: 2px;
+  margin: 2px;
   list-style: none;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
