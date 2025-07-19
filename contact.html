@@ -404,7 +404,8 @@
           </div>
           <div class="col-lg-6">
             <div id="form-messages"></div>
-            <form id="contact-form" action="https://html.themewant.com/mumtaz/mailer.php"
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="a0a50629-6d95-4db4-8358-410ad04b9635">
               class="contact-form-area-wrapper">
               <h4 class="title">Let’s Get in Touch</h4>
               <div class="half-inpur-wrapper">
@@ -412,11 +413,14 @@
                   <input type="text" name="name" placeholder="Your Name">
                 </div>
                 <div class="single">
-                  <input type="text" name="email" placeholder="number" required>
+                  <input type="text" name="number" placeholder="Your Number" required>
+                </div>
+                <div class="single">
+                  <input type="email" name="email" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="single">
-                <input name="subject" type="text" placeholder="Email Address...">
+                <input name="message" type="text" placeholder="Enter Your Message">
               </div>
               <textarea name="message" id="" placeholder="Type Your Message"></textarea>
               <button type="submit" class="rts-btn btn-primary">Send Message</button>
